@@ -1,8 +1,16 @@
-package com.client.kyc_verify.util
+package com.client.kyc_verify.ui
 
+import androidx.lifecycle.ViewModel
+import com.client.kyc_verify.util.IdType
+import com.client.kyc_verify.util.RegexPatterns
 import java.util.regex.Pattern
 
-class Util {
+
+/**
+ * ViewModel class for the [MainActivity]
+ */
+class KYCViewModel : ViewModel() {
+
     /**
      * @param: (String)Type, (String)card_text
      *
@@ -57,4 +65,5 @@ class Util {
         }
         return false
     }
+
 }
