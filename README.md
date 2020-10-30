@@ -18,3 +18,5 @@ KYC-Verification is an application that validate all ID-Card (i.e. Aadhar card, 
 ## Application Flow
 When we run this application first it'll start with a **Splash Screen** and it will go to **MainActivity** in which it will ask ID card type and enter the card value to validate. In MainActivity the validate is used to validate if user enter a valid id card or not and send data to the server.
 
+[apk file](https://github.com/i-Sachin464/KYC-Verification/tree/main/APK)
+
