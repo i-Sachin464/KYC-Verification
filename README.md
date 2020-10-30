@@ -10,7 +10,7 @@ KYC-Verification is an application that validate all ID-Card (i.e. Aadhar card, 
 - Kotlin
 
 ## Features
-- Filter-out Transactional messages, Credited and Debited messages 
+- Validate various id cards
 
 ## Architecture
 - MVVM
