@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KYC-verification</string>
+    <string name="spinner_title">Select ID</string>
+
+    <string-array name="id_cards">
+        <item>Select</item>
+        <item>Aadhar card</item>
+        <item>Voter card</item>
+        <item>Pan card</item>
+        <item>Driving License</item>
+        <item>Passport</item>
+    </string-array>
+</resources>
