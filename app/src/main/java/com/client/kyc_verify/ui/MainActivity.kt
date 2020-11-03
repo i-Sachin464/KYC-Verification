@@ -121,6 +121,7 @@ class MainActivity : AppCompatActivity() {
                         IdType.AADHAR_CARD.text -> {
                             text_input_layout.error = "Enter 12 digit aadhar number"
                             input_id_card.apply {
+                                setText("")
                                 inputType = InputType.TYPE_CLASS_NUMBER
                                 filters = arrayOf<InputFilter>(LengthFilter(12))
                             }
@@ -128,6 +129,7 @@ class MainActivity : AppCompatActivity() {
                         IdType.VOTER_CARD.text -> {
                             text_input_layout.error = "Enter 10 digit voter id card number"
                             input_id_card.apply {
+                                setText("")
                                 inputType = InputType.TYPE_CLASS_TEXT
                                 filters = arrayOf<InputFilter>(LengthFilter(10))
                             }
@@ -136,6 +138,7 @@ class MainActivity : AppCompatActivity() {
                         IdType.PAN_CARD.text -> {
                             text_input_layout.error = "Enter 10 digit pan card number"
                             input_id_card.apply {
+                                setText("")
                                 inputType = InputType.TYPE_CLASS_TEXT
                                 filters = arrayOf<InputFilter>(LengthFilter(10))
                             }
@@ -143,6 +146,7 @@ class MainActivity : AppCompatActivity() {
                         IdType.DRIVING_LICENSE.text -> {
                             text_input_layout.error = "Enter 16 digit driving license number"
                             input_id_card.apply {
+                                setText("")
                                 inputType = InputType.TYPE_CLASS_TEXT
                                 filters = arrayOf<InputFilter>(LengthFilter(16))
                             }
@@ -150,6 +154,7 @@ class MainActivity : AppCompatActivity() {
                         IdType.PASSPORT.text -> {
                             text_input_layout.error = "Enter 8 digit passport number"
                             input_id_card.apply {
+                                setText("")
                                 inputType = InputType.TYPE_CLASS_TEXT
                                 filters = arrayOf<InputFilter>(LengthFilter(8))
                             }
